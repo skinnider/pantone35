@@ -1,0 +1,12 @@
+Package: pantone35
+Title: 35 Inspirational Color Palettes
+Version: 0.0.9000
+Authors@R: c(
+  person("Michael", "Skinnider", email = "michael.skinnider@msl.ubc.ca",
+         role = c("aut", "cre", "led")))
+Description: Color palettes from the book "35 Inspirational Color Palettes" by PANTONE.
+Depends: R (>= 3.0.0)
+VignetteBuilder: knitr
+License: GPL-3 + file LICENSE
+Encoding: UTF-8
+RoxygenNote: 6.1.1

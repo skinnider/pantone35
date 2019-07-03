@@ -1,76 +1,251 @@
-ivy_league = c("#B6AA95", 
-               "#585748",
-               "#443731",
-               "#B92636")
-snug_harbor = c("#094e81",
-                "#e52841",
-                "#9f9db5",
-                "#0a70af")
-
-fresh_air = c(
-  "morning mist" = "#CCE0DC",
-  "lightest sky" = "#E6EDE4",
-  "white sand" = "#DCD7D4",
-  "acacia" = "#DDD161"
-) %>% unname()
-
-jewelry_chest = c(
-  "african sapphire" = "#201747",
-  "serpentine" = "#173F35",
-  "apple jade" = "#008755",
-  "black onyx" = "#2D2926"
-) %>% unname()
-florida_citrus = c(
-  "Blazing Yellow" = "#FEE715",
-  "Bright Marigold" = "#FF8D00",
-  "Sheer Pink" = "#F4EAE0",
-  "Classic Green" = "#32B141"
-) %>% unname()
-party_dress = c(
-  "Pink Crinoline" = "#cf96b0",
-  "Cool Celadon" = "#D1E0D7",
-  "Soft Jade" = "#7da18f",
-  "Cherry Blossom" = "#F5DADF"
-) %>% unname()
-
-sunset_beach = c(
-  "Hot Pink" = "#E95985",
-  "Hawaiian Ocean" = "#0095C6",
-  "Fiesta" = "#DC443A",
-  "Purple Wine" = "#8F3975"
-) %>% unname()
-
-island_cruise = c(
-  "Scuba Blue" = "#00B2CA",
-  "Baja Blue" = "#5265B0",
-  "Bone White" = "#D8D4C2",
-  "Macaw Green" = "#9DB73D"
-) %>% unname()
-
-weekend_getaway = c(
-  "Deep Lake" = "#00646B",
-  "Olive Night" = "#565447",
-  "Golden Rod" = "#E9A916",
-  "Moth" = "#D4D0B1"
-) %>% unname()
-
-firecracker = c(
-  "French Blue" = "#1278B9",
-  "Bright White" = "#F1F2F1",
-  "Atmosphere" = "#A39890",
-  "Grenadine" = "#DA413D"
-) %>% unname()
-
-underwater_world = c(
-  "Light Grey" = "#DBD9CE",
-  "Cayenne" = "#DA4A52",
-  "Jade Cream" = "#61BD93",
-  "Tender Shoots" = "#B9D146"
-) %>% unname()
-
-cottage_garden = c(
-  "Young Wheat" = "#E2E3A7",
-  "Garden Green" = "#485C37",
-  "Nimbus Cloud" = "#DFDFE3",
-  "Skyway" = "#ACC0D9"
-) %>% unname()
+#' List of Pantone color palettes.
+#' 
+#' @export
+palettes = list(
+  
+  "Ballet Lesson" = list(
+    "Cool Gray 1" = "#D9D9D6",
+    "323" = "#005F61",
+    "5025" = "#e8bcc7",
+    "7659" = "#5d3754"
+  ),
+  
+  "City Haze" = list(
+    "Cool Gray 9" = "#75787B",
+    "Cool Gray 3" = "#C8C9C7",
+    "4545" = "#D5CB9F", 
+    "451" = "#9B945F"
+  ),
+  
+  "Parisian Patisserie" = list(
+    "161" = "#603D20",
+    "7411" = "#E6A65D",
+    "1215" = "#FBD872",
+    "204" = "#E782A9"
+  ),
+  
+  "Forever Blues" = list(
+    "19-3938" = "#313D64",
+    "11-4301" = "#E2E2DA",
+    "17-3810" = "#8F8395",
+    "16-4019" = "#899BB8"
+  ),
+  
+  "Fireside" = list(
+    "463" = "#744F28",
+    "468" = "#DDCBA4",
+    "158" = "#E87722",
+    "187" = "#A6192E"
+  ),
+  
+  "Winter Shore" = list(
+    "13-6106" = "#C6CFC1",
+    "14-4500" = "#C4C2B9",
+    "11-0606" = "#F0EDE1",
+    "13-1008" = "#DDCDB5"
+  ),
+  
+  "French Country" = list(
+    "17-4131" = "#3D81AC",
+    "14-0754" = "#E8C13F",
+    "11-0105" = "#EFEAD7",
+    "19-4024" = "#273347"
+  ),
+  
+  "Pretty in Pink" = list(
+    "12-0000" = "#E4DAC9",
+    "13-2804" = "#EAC5D2",
+    "17-2230" = "#DD5A91",
+    "19-2630" = "#953975" 
+  ),
+  
+  "Fresh Air" = list(
+    "12-5204" = "#CCE0DC",
+    "11-4804" = "#E6EDE4",
+    "13-0002" = "#DCD7D4",
+    "13-0640" = "#DDD161"
+  ),
+  
+  "Jewelry Chest" = list(
+    "275" = "#201747",
+    "567" = "#173F35",
+    "7725" = "#008755",
+    "Black" = "#2D2926"
+  ),
+  
+  "Breakfast in Bed" = list(
+    "17-1422" = "#8F6E5D",
+    "14-3803" = "#D1C4C3",
+    "12-1404" = "#DBCCBE",
+    "11-0507" = "#F2EDD8"
+  ),
+  
+  "Florida Citrus" = list(
+    "12-0643" = "#FEE715",
+    "15-1164" = "#FF8D00",
+    "12-1106" = "#F4EAE0",
+    "16-6340" = "#32B141"
+  ),
+  
+  "Ivy League" = list(
+    "15-1306" = "#B6AA95", 
+    "19-0512" = "#585748",
+    "19-0912" = "#443731",
+    "19-1633" = "#B92636"
+  ),
+  
+  "Sleeping Baby" = list(
+    "11-4201" = "#F0F1F0",
+    "13-0907" = "#DBD0BE",
+    "13-4303" = "#CBD0CF",
+    "13-1108" = "#E4C8B7"
+  ),
+  
+  "Snug Harbor" = list(
+    "541" = "#094e81",
+    "186" = "#e52841",
+    "7653" = "#9f9db5",
+    "7691" = "#0a70af"
+  ),
+  
+  "Party Dress" = list(
+    "680" = "#cf96b0",
+    "621" = "#D1E0D7",
+    "624" = "#7da18f",
+    "705" = "#F5DADF"
+  ),
+  
+  "Silent Screen" = list(
+    "11-4202" = "#EDEFEC",
+    "12-0105" = "#D8D4C2",
+    "14-4103" = "#C0C4C3",
+    "19-4203" = "#2E3235"
+  ),
+  
+  "Afternoon at the Metropolitan" = list(
+    "457" = "#B89D18",
+    "461" = "#E9DF97",
+    "5615" = "#5E7461",
+    "7617" = "#583D3E"
+  ),
+  
+  "Birthday Balloons" = list(
+    "212" = "#F04E98",
+    "396" = "#E1E000",
+    "1495" = "#FF8F1C",
+    "312" = "#00A9CE"
+  ),
+  
+  "La Dolce Vita" = list(
+    "Black 5" = "#3E2B2E",
+    "436" = "#AB989D",
+    "5155" = "#BFA5B8",
+    "437" = "#7B6469"
+  ),
+  
+  "Rainy Sunday" = list(
+    "16-4411" = "#88A5AF",
+    "11-4201" = "#F0F1F0",
+    "14-4103" = "#C0C4C3",
+    "15-4702" = "#A4B0AC"
+  ),
+  
+  "St. Barts" = list(
+    "17-1563" = "#E34132",
+    "16-1361" = "#F86A38",
+    "11-0601" = "#F1F2F1",
+    "14-4505" = "#BDC9C5"
+  ),
+  
+  "Old School" = list(
+    "17-3906" = "#918D9A",
+    "19-1528" = "#5C343F",
+    "16-4021" = "#708FB5",
+    "19-3921" = "#263145"
+  ),
+  
+  "Passionate Purples" = list(
+    "663" = "#E5E1E6",
+    "525" = "#572C5F",
+    "2415" = "#9E007E",
+    "4985" = "#874B52"
+  ),
+  
+  "First Daffodil" = list(
+    "11-0601" = "#F1F2F1",
+    "12-0721" = "#F2E89A",
+    "14-0445" = "#B0BC4A",
+    "12-0752" = "#FBE337"
+  ),
+  
+  "Pup Tent" = list(
+    "19-0509" = "#363C31",
+    "15-1306" = "#B6AA95", 
+    "19-1015" = "#4E423D",
+    "17-6009" = "#5C6D61"
+  ),
+  
+  "Sunset Beach" = list(
+    "17-1937" = "#E95985",
+    "17-4540" = "#0095C6",
+    "17-1564" = "#DC443A",
+    "18-2929" = "#8F3975"
+  ),
+  
+  "Home, Sweet Home" = list(
+    "13-0614" = "#E0DBA9",
+    "11-0510" = "#F5EED3",
+    "13-6105" = "#CDD2C1",
+    "12-1206" = "#E9D4CA"
+  ),
+  
+  "Island Cruise" = list(
+    "16-4725" = "#00B2CA",
+    "18-3946" = "#5265B0",
+    "12-0105" = "#D8D4C2",
+    "16-0230" = "#9DB73D"
+  ),
+  
+  "August Dahlia" = list(
+    "19-2033" = "#862C4D",
+    "17-1740" = "#C14A64",
+    "17-1553" = "#C84B45",
+    "17-1635" = "#D85863"
+  ),
+  
+  "Weekend Getaway" = list(
+    "18-4834" = "#00646B",
+    "19-0515" = "#565447",
+    "14-0951" = "#E9A916",
+    "13-0611" = "#D4D0B1"
+  ),
+  
+  "Firecracker" = list(
+    "18-4140" = "#1278B9",
+    "11-0601" = "#F1F2F1",
+    "16-1406" = "#A39890",
+    "17-1558" = "#DA413D"
+  ),
+  
+  "Early Meadow" = list(
+    "5245" = "#DBCDD3",
+    "7485" = "#D0DEBB",
+    "7541" = "#D9E1E2",
+    "Yellow 0131" = "#F2F0A1"
+  ),
+  
+  "Underwater World" = list(
+    "12-0404" = "#DBD9CE",
+    "18-1651" = "#DA4A52",
+    "15-6123" = "#61BD93",
+    "14-0446" = "#B9D146"
+  ),
+  
+  "Cottage Garden" = list(
+    "12-0521" = "#E2E3A7",
+    "19-0230" = "#485C37",
+    "13-4108" = "#DFDFE3",
+    "14-4112" = "#ACC0D9"
+  )
+  
+)
