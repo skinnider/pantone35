@@ -4,10 +4,17 @@ Color palettes from the book "35 Inspirational Color Palettes" by PANTONE.
 
 ### Installation
 
-Install with `devtools`:
+Clone the (private) repo locally:
+
+```
+cd ~/git
+git clone https://USERNAME@github.com/skinnider/pantone35
+```
+
+Then install with `devtools`:
 
 ```r
-devtools::install_github("skinnider/pantone35")
+devtools::install("~/git/pantone35")
 
 ```
 
